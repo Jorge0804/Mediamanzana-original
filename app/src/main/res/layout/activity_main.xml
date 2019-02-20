@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_inicio">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/corazon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Mi media manzana"
+        android:layout_gravity="center"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="Encuentra tu pareja perfecta"
+        android:layout_gravity="center"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/botonfacebook"
+        android:drawableLeft="@mipmap/face_logo"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:id="@+id/iniciarface"
+        android:text="Continuar con Facebook"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botongoogle"
+        android:text="Continuar con Google"
+        android:textColor="#1592E6"
+        android:textSize="13sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botontojo"
+        android:text="Iniciar sesión con tu correo"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:id="@+id/txtsus"
+        android:layout_gravity="center"
+        android:textColor="#E0E0E0"
+        />
+
+</LinearLayout>
