@@ -67,6 +67,7 @@
             android:textColorHint="#78FFFFFF"
             android:password="true"
             />
+
         <Button
             android:layout_width="220dp"
             android:layout_height="40dp"
@@ -87,6 +88,8 @@
             android:textColor="#fff"
             android:textSize="11sp"
             android:id="@+id/olvidar"/>
+=======
+
 
         <RelativeLayout
             android:layout_marginTop="20dp"
@@ -94,8 +97,10 @@
             android:layout_marginLeft="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
+>>>>>>> b1c5657bb40c01f0f7ba1ba9da0b455b1e0d7bb0
 
     </LinearLayout>
-    
+
+
+
 </LinearLayout>

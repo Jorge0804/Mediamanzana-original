@@ -12,13 +12,13 @@ public class InicioManzana extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio_manzana);
 
-        findViewById(R.id.olvidar).setOnClickListener(this);
-        findViewById(R.id.btn_iniciar).setOnClickListener(this);
+        //findViewById(R.id.olvidar).setOnClickListener(this);
+        //findViewById(R.id.btn_iniciar).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        Intent in;
+        /*Intent in;
         switch (v.getId())
         {
             case R.id.olvidar:
@@ -31,5 +31,6 @@ public class InicioManzana extends AppCompatActivity implements View.OnClickList
                 break;
 
         }
+        */
     }
 }
