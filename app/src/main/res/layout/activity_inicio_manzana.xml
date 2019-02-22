@@ -67,7 +67,6 @@
             android:textColorHint="#78FFFFFF"
             android:password="true"
             />
-<<<<<<< HEAD
         <Button
             android:layout_width="220dp"
             android:layout_height="40dp"
@@ -88,41 +87,15 @@
             android:textColor="#fff"
             android:textSize="11sp"
             android:id="@+id/olvidar"/>
-=======
-
 
         <RelativeLayout
             android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"/>
 
-            <Button
-                android:layout_width="220dp"
-                android:layout_height="40dp"
-                android:background="@drawable/botontojo"
-                android:text="Iniciar sesión"
-                android:textColor="#fff"
-                android:textSize="13sp"
-                android:textAllCaps="false"
-                android:id="@+id/iniciar"
-                />
-            <TextView
-                android:layout_centerInParent="true"
-                android:layout_marginTop="10dp"
-                android:layout_below="@id/iniciar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="¿Olvidaste tu contraseña?"
-                android:textColor="#fff"
-                android:textSize="11sp"
-                android:id="@+id/olvidar"/>
-        </RelativeLayout>
->>>>>>> b1c5657bb40c01f0f7ba1ba9da0b455b1e0d7bb0
 
     </LinearLayout>
-
-
-
+    
 </LinearLayout>
