@@ -5,13 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class InicioManzana extends AppCompatActivity implements View.OnClickListener {
+public class activity_sesion_correo extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicio_manzana);
-
+        setContentView(R.layout.activity_sesion_correo);
         findViewById(R.id.olvidar).setOnClickListener(this);
     }
 

@@ -18,7 +18,7 @@ public class activity_situacion_sentimental extends AppCompatActivity implements
     @Override
     public void onClick(View v)
     {
-        Intent in = new Intent(this,Prueba.class);
+        Intent in = new Intent(activity_situacion_sentimental.this, activity_subir_fotos.class);
         startActivity(in);
     }
 }

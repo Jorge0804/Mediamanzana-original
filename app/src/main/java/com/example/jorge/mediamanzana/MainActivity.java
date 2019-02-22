@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(in);
                 break;
             case R.id.btnManzana:
-                in = new Intent(this, InicioManzana.class);
+                in = new Intent(this, activity_sesion_correo.class);
                 startActivity(in);
                 break;
             case R.id.registrar:
