@@ -14,7 +14,7 @@ public class InicioFaceActivity extends AppCompatActivity implements View.OnClic
 
         findViewById(R.id.atras).setOnClickListener(this);
         findViewById(R.id.btn_sesion).setOnClickListener(this);
-        findViewById(R.id.foto_sesion).setOnClickListener(this);
+        findViewById(R.id.usuarios).setOnClickListener(this);
     }
 
     @Override
