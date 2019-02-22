@@ -11,16 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_subir_fotos"></activity>
-        <activity android:name=".activity_sesion_correo" />
+        <activity android:name=".activity_principal"></activity>
+        <activity android:name=".activity_mostrar_mensajes" />
         <activity android:name=".activity_situacion_sentimental" />
-        <!--
-<activity android:name=".Favoritos" />
-        <activity android:name=".Inicio" />
-        -->
+        <activity android:name=".activity_fotos_martin" />
+        <activity android:name=".activity_sesion_correo" />
         <activity android:name=".Prueba" />
         <activity android:name=".interesesManzana" />
-        <activity android:name=".UltimoMensaje" />
         <activity android:name=".AutodescripcionManzana" />
         <activity android:name=".OcupacionManzana" />
         <activity android:name=".UbicacionManzana" />

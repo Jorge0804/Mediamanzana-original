@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,292 +7,55 @@
     tools:context=".interesesManzana"
     android:orientation="vertical"
     android:background="#fff"
-    android:layout_marginHorizontal="20dp"
-    >
+    android:layout_marginHorizontal="20dp">
+
+
     <TextView
+        android:id="@+id/texto"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textColor="#C74765"
-        android:text="¿Qué te apasiona? Elige las pasiones
- que mejor te describen"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="30dp"
+        android:text="¿Qué te apasiona? Elige las pasiones que mejor te describen"
         android:textAlignment="center"/>
 
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:layout_marginBottom="15dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_arte"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="arte"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginHorizontal="10dp"
-            android:background="@drawable/btn_circulo"
-            android:src="@mipmap/ico_comida"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Dieta"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginHorizontal="10dp"
-            android:background="@drawable/btn_circulo"
-            android:src="@mipmap/ico_restaurante"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Comida"
-            android:textSize="18sp"
-            android:layout_gravity="center"
-            />
-        </LinearLayout>
-
-    </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rl7"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:layout_marginBottom="15dp">
+            <ImageView
+                android:id="@id/imagen"
+                android:src="@drawable/gustos"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_lectura"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lectura"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
+        </RelativeLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_viajes"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Viajes"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_videojuegos"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Videojuegos"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
+                <Button
+                    android:layout_centerHorizontal="true"
+                android:layout_below="@id/rl7"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="@drawable/botontojo"
+                android:text="Finalizar"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textAllCaps="false"
+                    android:layout_marginTop="30dp"
+                android:id="@+id/btnManzana"/>
 
-    </LinearLayout>
+
+</RelativeLayout>
 
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:layout_marginBottom="15dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_naturaleza"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Naturaleza"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_musica"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Música"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_tecnologia"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tecnología"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-
-    </LinearLayout>
 
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:layout_gravity="center">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_cine"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cine"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginHorizontal="10dp"
-            android:background="@drawable/btn_circulo"
-            android:src="@mipmap/ico_deportes"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-                android:text="Deportes"
-            android:textSize="18sp"
-            android:layout_gravity="center"
-            />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginHorizontal="10dp"
-                android:background="@drawable/btn_circulo"
-                android:src="@mipmap/ico_moda"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Moda"
-                android:textSize="18sp"
-                android:layout_gravity="center"
-                />
 
-        </LinearLayout>
-
-    </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:background="@drawable/botontojo"
-        android:text="Continuar"
-        android:textColor="#fff"
-        android:textSize="13sp"
-        android:textAllCaps="false"
-        android:layout_marginTop="20dp"
-        android:id="@+id/btn_continuar" />
-
-</LinearLayout>

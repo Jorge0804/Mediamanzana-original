@@ -70,23 +70,23 @@
 
         </RadioGroup>
 
-       <RelativeLayout
-           android:layout_marginTop="20dp"
-           android:layout_below="@+id/grupo"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/grupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-           <Button
-               android:layout_centerInParent="true"
-               android:layout_width="220dp"
-               android:layout_height="40dp"
-               android:background="@drawable/botontojo"
-               android:text="Siguiente"
-               android:textColor="#fff"
-               android:textSize="13sp"
-               android:textAllCaps="false"
-               android:id="@+id/btn_siguiente"/>
-       </RelativeLayout>
+            <Button
+                android:layout_centerInParent="true"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="@drawable/botontojo"
+                android:text="Siguiente"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textAllCaps="false"
+                android:id="@+id/btn_siguiente"/>
+        </RelativeLayout>
 
     </RelativeLayout>
 </RelativeLayout>

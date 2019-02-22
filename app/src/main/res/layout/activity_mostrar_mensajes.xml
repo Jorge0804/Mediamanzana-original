@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SaludoManzana"
-    android:orientation="vertical"
-    android:background="#fff">
-    <ImageView
+    tools:context=".activity_mostrar_mensajes">
+
+    <RelativeLayout
+        android:id="@+id/rlv6"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="8"
-        android:background="@mipmap/descansando"/>
+        android:layout_height="200dp">
+
+        <ImageView
+            android:src="@drawable/descansando"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
 
     <LinearLayout
+        android:layout_below="@id/rlv6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="5"
@@ -62,4 +67,9 @@ ver mas perfiles interesantes para ti"
 
     </LinearLayout>
 
-</LinearLayout>
+
+
+
+
+
+</RelativeLayout>
