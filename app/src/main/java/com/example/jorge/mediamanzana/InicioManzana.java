@@ -5,29 +5,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Favoritos extends AppCompatActivity implements View.OnClickListener{
+public class InicioManzana extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_favoritos);
+        setContentView(R.layout.activity_inicio_manzana);
 
-        findViewById(R.id.btn_home).setOnClickListener(this);
-
-
+        findViewById(R.id.olvidar).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         Intent in;
-
         switch (v.getId())
         {
-            case R.id.btn_home:
-                in = new Intent(this, Inicio.class);
+            case R.id.olvidar:
+                in = new Intent(this, CorreoManzana.class);
                 startActivity(in);
                 break;
         }
-
     }
 }
