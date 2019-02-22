@@ -133,26 +133,34 @@
                 android:layout_gravity="center"/>
         </RadioGroup>
 
-        <Button
-            android:id="@+id/btn_siguiente"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="70dp"
-            android:background="@drawable/botontojo"
-            android:text="Siguiente"
-            android:textAllCaps="false"
-            android:textColor="#fff"
-            android:textSize="13sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:text="Atras"
-            android:textColor="#7B7B7B"
-            android:textSize="11sp"
-            android:id="@+id/btn_cancelar"/>
+       <RelativeLayout
+           android:layout_marginTop="20dp"
+           android:layout_marginRight="60dp"
+           android:layout_marginLeft="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:id="@+id/btn_siguiente"
+               android:layout_width="220dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:background="@drawable/botontojo"
+               android:text="Siguiente"
+               android:layout_marginBottom="10dp"
+               android:textAllCaps="false"
+               android:textColor="#fff"
+               android:textSize="13sp" />
+           <TextView
+               android:layout_below="@id/btn_siguiente"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Atras"
+               android:layout_centerInParent="true"
+               android:textColor="#7B7B7B"
+               android:textSize="11sp"
+               android:id="@+id/btn_cancelar"/>
+       </RelativeLayout>
     </LinearLayout>
 
 </LinearLayout>
