@@ -67,6 +67,29 @@
             android:textColorHint="#78FFFFFF"
             android:password="true"
             />
+<<<<<<< HEAD:app/src/main/res/layout/activity_inicio_manzana.xml
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/botontojo"
+            android:text="Iniciar sesión"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="55dp"
+            android:id="@+id/btn_iniciar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#fff"
+            android:textSize="11sp"
+            />
+=======
+>>>>>>> d688d922d0925b10067ec90b62db17084418f1df:app/src/main/res/layout/activity_sesion_correo.xml
 
 
         <RelativeLayout
