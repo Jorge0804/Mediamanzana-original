@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Publicar"></activity>
         <activity android:name=".Galeria" />
         <activity android:name=".Perfilhombre" />
@@ -20,12 +21,18 @@
         <activity android:name=".FotosMujer" />
         <activity android:name=".PerfilmujerActivity" />
         <activity android:name=".Favoritos" />
+=======
+        <activity android:name=".activity_subir_fotos"></activity>
+        <activity android:name=".activity_sesion_correo" />
+        <activity android:name=".activity_situacion_sentimental" />
+        <!--
+<activity android:name=".Favoritos" />
+>>>>>>> d688d922d0925b10067ec90b62db17084418f1df
         <activity android:name=".Inicio" />
+        -->
         <activity android:name=".Prueba" />
         <activity android:name=".interesesManzana" />
         <activity android:name=".UltimoMensaje" />
-        <activity android:name=".SubirFotos" />
-        <activity android:name=".SituacionManzana" />
         <activity android:name=".AutodescripcionManzana" />
         <activity android:name=".OcupacionManzana" />
         <activity android:name=".UbicacionManzana" />
@@ -38,9 +45,6 @@
             android:name=".Gmail"
             android:theme="@style/gmail" />
         <activity android:name=".CorreoManzana" />
-        <activity
-            android:name=".InicioManzana"
-            android:theme="@style/AppTheme" />
         <activity
             android:name=".ContrasenaGoogle"
             android:theme="@style/google" />

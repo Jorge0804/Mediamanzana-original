@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_situacion_sentimental">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/corazon"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/corazonrojo" />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/corazon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="¿Cuál es tu situación sentimental?"
+            android:id="@+id/texto"
+            android:textAlignment="center"
+            android:textColor="#8A0C0C0C"/>
+
+        <RadioGroup
+            android:id="@+id/grupo"
+            android:layout_marginTop="15dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_casado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:text="Casad@" />
+
+            <RadioButton
+                android:id="@+id/radio_soltero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Solter@" />
+
+            <RadioButton
+                android:id="@+id/radio_divorciado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:text="Divorciad@" />
+
+            <RadioButton
+                android:id="@+id/radio_viudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Viud@" />
+
+        </RadioGroup>
+
+       <RelativeLayout
+           android:layout_marginTop="20dp"
+           android:layout_below="@+id/grupo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_centerInParent="true"
+               android:layout_width="220dp"
+               android:layout_height="40dp"
+               android:background="@drawable/botontojo"
+               android:text="Siguiente"
+               android:textColor="#fff"
+               android:textSize="13sp"
+               android:textAllCaps="false"
+               android:id="@+id/btn_siguiente"/>
+       </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+

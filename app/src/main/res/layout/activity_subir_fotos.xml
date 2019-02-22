@@ -1,78 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SubirFotos"
-    android:background="#fff"
-    android:orientation="vertical">
+    tools:context=".activity_subir_fotos">
+
+
+
     <ImageView
+        android:id="@+id/corazon"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|center"
         android:layout_marginTop="40dp"
         android:src="@mipmap/corazonrojo" />
+
+
     <TextView
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_below="@id/corazon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:text="Subir fotos"
-        android:layout_gravity="center"
+        android:id="@+id/texto"
+        android:textAlignment="center"
         android:textColor="#8A0C0C0C"/>
 
-    <LinearLayout
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/texto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical"
-        android:gravity="center">
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="150dp"
-            android:orientation="horizontal"
-            android:layout_weight="1">
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/martin2"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_toRightOf="@id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/martin3"/>
+
+        <RelativeLayout
+            android:layout_below="@id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
             <ImageView
+                android:id="@+id/img3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@mipmap/martin1"
-                android:layout_weight="1"/>
+                android:src="@mipmap/martin1"/>
+
             <ImageView
+                android:id="@+id/img5"
+                android:layout_toRightOf="@id/img3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@mipmap/martin2"
-                android:layout_weight="1"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="150dp"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/martin3"
-                android:layout_weight="1"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/camara"
-                android:layout_weight="1"
-                android:layout_margin="8dp"
-                android:id="@+id/btn_foto"/>
-        </LinearLayout>
-    </LinearLayout>
-    <Button
-        android:layout_width="220dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:background="@drawable/botontojo"
-        android:layout_marginTop="20dp"
-        android:text="Siguiente"
-        android:textColor="#fff"
-        android:textSize="13sp"
-        android:textAllCaps="false"
-        android:id="@+id/btn_siguiente"/>
+                android:src="@mipmap/martin1"/>
 
 
-</LinearLayout>
+            <Button
+                android:layout_below="@id/img5"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/botontojo"
+                android:text="Siguiente"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textAllCaps="false"
+                android:id="@+id/btn_siguiente"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

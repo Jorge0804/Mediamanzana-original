@@ -17,7 +17,7 @@ public class AutodescripcionManzana extends AppCompatActivity implements View.On
 
     @Override
     public void onClick(View v) {
-        Intent in = new Intent(this, SituacionManzana.class);
+        Intent in = new Intent(this, activity_situacion_sentimental.class);
         startActivity(in);
     }
 }

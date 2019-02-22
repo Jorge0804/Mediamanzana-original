@@ -67,6 +67,7 @@
             android:textColorHint="#78FFFFFF"
             android:password="true"
             />
+<<<<<<< HEAD:app/src/main/res/layout/activity_inicio_manzana.xml
         <Button
             android:layout_width="220dp"
             android:layout_height="40dp"
@@ -87,10 +88,12 @@
             android:textColor="#fff"
             android:textSize="11sp"
             />
+=======
+>>>>>>> d688d922d0925b10067ec90b62db17084418f1df:app/src/main/res/layout/activity_sesion_correo.xml
 
 
         <RelativeLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
             android:layout_width="match_parent"
@@ -117,7 +120,6 @@
                 android:textSize="11sp"
                 android:id="@+id/olvidar"/>
         </RelativeLayout>
->>>>>>> b1c5657bb40c01f0f7ba1ba9da0b455b1e0d7bb0
 
     </LinearLayout>
 
