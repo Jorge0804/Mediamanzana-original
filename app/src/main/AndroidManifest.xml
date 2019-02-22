@@ -11,6 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Publicar"></activity>
+        <activity android:name=".Galeria" />
+        <activity android:name=".Perfilhombre" />
+        <activity android:name=".PerfilmujerDos" />
+        <activity android:name=".Chat" />
+        <activity android:name=".FotoSelena" />
+        <activity android:name=".FotosMujer" />
+        <activity android:name=".PerfilmujerActivity" />
         <activity android:name=".Favoritos" />
         <activity android:name=".Inicio" />
         <activity android:name=".Prueba" />

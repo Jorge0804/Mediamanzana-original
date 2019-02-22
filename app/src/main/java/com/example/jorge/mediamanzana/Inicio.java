@@ -13,6 +13,13 @@ public class Inicio extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_inicio);
 
         findViewById(R.id.btn_favoritos).setOnClickListener(this);
+        findViewById(R.id.btn_foto1).setOnClickListener(this);
+        findViewById(R.id.btn_foto2).setOnClickListener(this);
+        findViewById(R.id.btn_perfil).setOnClickListener(this);
+        findViewById(R.id.btn_fperfil).setOnClickListener(this);
+
+
+
 
 
 
@@ -28,6 +35,23 @@ public class Inicio extends AppCompatActivity implements View.OnClickListener{
                 in = new Intent(this, Favoritos.class);
                 startActivity(in);
                 break;
+            case R.id.btn_foto1:
+                in = new Intent(this, PerfilmujerActivity.class);
+                startActivity(in);
+                break;
+            case R.id.btn_foto2:
+                in = new Intent(this, PerfilmujerDos.class);
+                startActivity(in);
+                break;
+            case R.id.btn_perfil:
+                in = new Intent(this, Perfilhombre.class);
+                startActivity(in);
+                break;
+            case R.id.btn_fperfil:
+                in = new Intent(this, Perfilhombre.class);
+                startActivity(in);
+                break;
+
         }
 
 
