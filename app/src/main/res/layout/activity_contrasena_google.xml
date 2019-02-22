@@ -62,37 +62,39 @@
         android:text="¿Has olvidado tu contraseña?"
         android:textColor="#1592E6"
         android:layout_gravity="center"
+        android:id="@+id/texto"
         android:layout_marginRight="50dp"/>
 
-    <LinearLayout
+    <RelativeLayout
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/rl1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="180dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
+        android:layout_height="wrap_content">
+
+
         <Button
-            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_width="120dp"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:background="#fff"
             android:text="Atrás"
             android:textColor="#0992FF"
             android:textAllCaps="false"
             android:id="@+id/btn_atras"/>
+
         <Button
-            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/btn_atras"
+            android:layout_width="120dp"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:background="#0992FF"
             android:textColor="#fff"
-            android:text="Continuar"
+            android:text="Siguiente"
             android:textAllCaps="false"
             android:textSize="14sp"
-            android:id="@+id/btn_continuar"/>
-
-    </LinearLayout>
-
+            android:id="@+id/btn_siguiente"/>
+    </RelativeLayout>
 
 
 </LinearLayout>
