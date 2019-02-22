@@ -34,9 +34,6 @@
             android:theme="@style/gmail" />
         <activity android:name=".CorreoManzana" />
         <activity
-            android:name=".InicioManzana"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name=".ContrasenaGoogle"
             android:theme="@style/google" />
         <activity
