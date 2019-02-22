@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Prueba"></activity>
+        <activity android:name=".Favoritos" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".Prueba" />
         <activity android:name=".interesesManzana" />
         <activity android:name=".UltimoMensaje" />
         <activity android:name=".SubirFotos" />
