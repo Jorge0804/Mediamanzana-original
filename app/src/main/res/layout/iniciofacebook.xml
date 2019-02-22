@@ -8,16 +8,16 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@mipmap/flechaatras"
-        android:id="@+id/atras"/>
+        android:id="@+id/atras" />
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:background="@mipmap/face_logo"
         android:layout_gravity="center"/>
 
@@ -27,26 +27,57 @@
         android:layout_height="match_parent"
         android:layout_margin="40dp"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Toca para iniciar sesión"
+            android:textColor="#6B7FA8"
+            android:textSize="15dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/foto_sesion">
+
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/perfil"
-                />
+                android:background="@drawable/perfil" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
                 android:text="Jorge Arturo Bernal Cerda"
                 android:textColor="#fff"
-                android:textSize="15sp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#140D4D" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/botoniniciarface"
+            android:text="Crear Cuenta"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="180dp"
+            android:id="@+id/btn_sesion"
+            />
+
+
+
 
     </LinearLayout>
+
 </LinearLayout>

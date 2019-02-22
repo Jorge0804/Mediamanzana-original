@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".permiso_facebook"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#3B5998">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/flechaatras"
+            android:id="@+id/atras" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Inicia sesión con tu Facebook"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/corazonrojo"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:text="Media Manzana recibirá:
+tu nombre y foto del perfil, Friends list, ciudad
+actual y dirección de correo electrónico"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_height="40dp"
+        android:text="Continuar como Jorge"
+        android:textAllCaps="false"
+        android:background="#3B5998"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/candado"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:text="  No permite que la publique en Facebook"/>
+
+</LinearLayout>

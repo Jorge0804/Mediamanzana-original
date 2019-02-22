@@ -5,16 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class InicioFaceActivity extends AppCompatActivity implements View.OnClickListener {
+public class Sesionfacebook extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.iniciofacebook);
+        setContentView(R.layout.activity_sesionfacebook);
 
         findViewById(R.id.atras).setOnClickListener(this);
-        findViewById(R.id.btn_sesion).setOnClickListener(this);
-        findViewById(R.id.foto_sesion).setOnClickListener(this);
+        findViewById(R.id.iniciarsesion).setOnClickListener(this);
     }
 
     @Override
@@ -24,12 +23,10 @@ public class InicioFaceActivity extends AppCompatActivity implements View.OnClic
             case R.id.atras:
                 finish();
                 break;
-        }
-
-        if(v.getId() != R.id.atras)
-        {
-            Intent in = new Intent(this, Sesionfacebook.class);
-            startActivity(in);
+            case R.id.iniciarsesion:
+                Intent in = new Intent(this, permiso_facebook.class);
+                startActivity(in);
+                break;
         }
     }
 }

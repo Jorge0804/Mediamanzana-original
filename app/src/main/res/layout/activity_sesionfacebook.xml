@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sesionfacebook"
+    android:orientation="vertical"
+    android:background="#3B5998">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/flechaatras"
+        android:id="@+id/atras" />
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/perfil"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Ingresa tu contraseña"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Ecribe la contraseña"
+        android:textColorHint="#8F8E8E"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:focusable="true"
+        android:password="true"
+        android:backgroundTint="#fff"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#183677"
+        android:text="Iniciar sesión"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/iniciarsesion"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+</LinearLayout>

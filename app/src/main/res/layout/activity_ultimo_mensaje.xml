@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaludoManzana"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:background="@mipmap/descansando"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginHorizontal="35dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#C74765"
+            android:text="Tus posibilidades aumentaran
+completando mas intereses"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="¡No esperes mas! Si nos cuentas lo que te
+apasiona, podras tener la oportunidad de
+ver mas perfiles interesantes para ti"
+            android:textColor="#7B7B7B"
+            android:textSize="14sp"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/botontojo"
+            android:text="Continuar"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="120dp"
+            android:id="@+id/btn_continuar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Atras"
+            android:textColor="#7B7B7B"
+            android:textSize="11sp"
+            android:id="@+id/btn_atras"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -13,5 +13,17 @@
         <item name="colorPrimaryDark">#3B5998</item>
         <item name="colorAccent">#3B5998</item>
     </style>
+    <style name="google" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0992FF</item>
+        <item name="colorPrimaryDark">#0992FF</item>
+        <item name="colorAccent">#0992FF</item>
+    </style>
+    <style name="gmail" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#fff</item>
+    </style>
 
 </resources>

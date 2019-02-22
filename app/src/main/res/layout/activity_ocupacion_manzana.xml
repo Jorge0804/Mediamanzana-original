@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaludoManzana"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ocupacion_fondo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="¿A qué te dedicas?"
+            android:textColor="#7B7B7B"
+            android:textSize="15sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C74765"
+            android:textSize="14sp"
+            android:textColor="#7B7B7B"
+            android:hint="Escribe cual es tu ocupación"
+            android:textColorHint="#40000000"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/botontojo"
+            android:text="Siguiente"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="110dp"
+            android:id="@+id/btn_siguiente" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -53,10 +53,14 @@
         android:layout_gravity="center"
         android:background="@drawable/botongoogle"
         android:text="Continuar con Google"
+        android:drawableLeft="@mipmap/google_logo"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
         android:textColor="#1592E6"
         android:textSize="13sp"
         android:textAllCaps="false"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:id="@+id/iniciargoogle"/>
     <Button
         android:layout_width="220dp"
         android:layout_height="40dp"
@@ -66,16 +70,18 @@
         android:textColor="#fff"
         android:textSize="13sp"
         android:textAllCaps="false"
-        android:layout_marginTop="55dp"/>
+        android:layout_marginTop="55dp"
+        android:id="@+id/btnManzana"/>
 
     <TextView
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="13sp"
-        android:id="@+id/txtsus"
+        android:id="@+id/registrar"
         android:layout_gravity="center"
-        android:textColor="#E0E0E0"
+        android:textColor="#fff"
+        android:text="¿No estás suscrito? Ir al registro"
         />
 
 </LinearLayout>

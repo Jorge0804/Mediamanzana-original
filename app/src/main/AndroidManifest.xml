@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jorge.mediamanzana">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +11,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InicioFaceActivity"
-            android:theme="@style/facebook"></activity>
+        <activity android:name=".Prueba"></activity>
+        <activity android:name=".interesesManzana" />
+        <activity android:name=".UltimoMensaje" />
+        <activity android:name=".SubirFotos" />
+        <activity android:name=".SituacionManzana" />
+        <activity android:name=".AutodescripcionManzana" />
+        <activity android:name=".OcupacionManzana" />
+        <activity android:name=".UbicacionManzana" />
+        <activity android:name=".Naciste_Manzana" />
+        <activity android:name=".PreferenciasManzana" />
+        <activity android:name=".InteresesManzana1" />
+        <activity android:name=".SaludoManzana" />
+        <activity android:name=".CuentaManzana" />
+        <activity
+            android:name=".Gmail"
+            android:theme="@style/gmail" />
+        <activity android:name=".CorreoManzana" />
+        <activity
+            android:name=".InicioManzana"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContrasenaGoogle"
+            android:theme="@style/google" />
+        <activity
+            android:name=".SesionGoogle"
+            android:theme="@style/google" />
+        <activity
+            android:name=".permiso_facebook"
+            android:theme="@style/facebook" />
+        <activity
+            android:name=".Sesionfacebook"
+            android:theme="@style/facebook" />
+        <activity
+            android:name=".InicioFaceActivity"
+            android:theme="@style/facebook" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

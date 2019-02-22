@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuentaManzana"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="40dp"
+        android:background="#fff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/corazonrojo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Mi media manzana"
+        android:layout_gravity="center"
+        android:textColor="#8A0C0C0C"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="Encuentra tu pareja perfecta"
+        android:layout_gravity="center"
+        android:textColor="#690C0C0C"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textColor="#78000000"
+        android:textSize="12sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C74765"
+        android:textSize="16sp"
+        android:textColor="#78000000"
+        android:hint="Ecribe tu correo"
+        android:textColorHint="#4B000000"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#78000000"
+        android:textSize="12sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C74765"
+        android:textSize="16sp"
+        android:textColor="#78000000"
+        android:hint="Ecribe un nuevo nombre de usuario"
+        android:textColorHint="#4B000000"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="#78000000"
+        android:textSize="12sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C74765"
+        android:textSize="16sp"
+        android:textColor="#78000000"
+        android:hint="Ecribe tu nueva contraseña"
+        android:textColorHint="#4B000000"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar contraseña"
+        android:textColor="#78000000"
+        android:textSize="12sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C74765"
+        android:textSize="16sp"
+        android:textColor="#78000000"
+        android:hint="Repite tu contraseña"
+        android:textColorHint="#4B000000"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botontojo"
+        android:text="Registrarse"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_registrar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cancelar"
+        android:textColor="#7B7B7B"
+        android:textSize="11sp"
+        android:id="@+id/btn_cancelar"/>
+    </LinearLayout>
+
+
+</LinearLayout>

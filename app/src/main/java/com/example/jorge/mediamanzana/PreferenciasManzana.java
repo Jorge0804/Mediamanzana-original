@@ -1,0 +1,31 @@
+package com.example.jorge.mediamanzana;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+public class PreferenciasManzana extends AppCompatActivity implements View.OnClickListener {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_preferencias_manzana);
+
+        findViewById(R.id.btn_siguiente).setOnClickListener(this);
+        findViewById(R.id.btn_cancelar).setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId()==R.id.btn_siguiente)
+        {
+            Intent in = new Intent(this, Naciste_Manzana.class);
+            startActivity(in);
+        }
+        else
+        {
+            finish();
+        }
+    }
+}

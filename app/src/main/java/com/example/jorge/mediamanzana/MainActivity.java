@@ -9,24 +9,38 @@ import android.view.Window;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    TextView t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        t = findViewById(R.id.txtsus);
-        t.setText(Html.fromHtml("<p>¿No tienes cuenta? <u>Ir al registro</u></p>").toString());
         findViewById(R.id.iniciarface).setOnClickListener(this);
+        findViewById(R.id.iniciargoogle).setOnClickListener(this);
+        findViewById(R.id.btnManzana).setOnClickListener(this);
+        findViewById(R.id.registrar).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
+        Intent in;
+
         switch (v.getId())
         {
             case R.id.iniciarface:
-                Intent in = new Intent(this, InicioFaceActivity.class);
+                in = new Intent(this, InicioFaceActivity.class);
+                startActivity(in);
+                break;
+            case R.id.iniciargoogle:
+                in = new Intent(this, SesionGoogle.class);
+                startActivity(in);
+                break;
+            case R.id.btnManzana:
+                in = new Intent(this, InicioManzana.class);
+                startActivity(in);
+                break;
+            case R.id.registrar:
+                in = new Intent(this, CuentaManzana.class);
                 startActivity(in);
                 break;
         }
