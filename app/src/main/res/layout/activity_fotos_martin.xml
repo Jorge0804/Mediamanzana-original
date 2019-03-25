@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_fotos_martin">
+
+   <RelativeLayout
+       android:id="@+id/rl3"
+       android:layout_marginRight="140dp"
+        android:layout_marginLeft="140dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/imagen"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@mipmap/corazonrojo" />
+       <TextView
+           android:layout_below="@id/imagen"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:text="Fotos"
+           android:textColor="#8A0C0C0C"/>
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl5"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/martines_garrixes"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_below="@id/rl5"
+        android:layout_centerInParent="true"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/botontojo"
+        android:text="Siguiente"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_siguiente"/>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9ECEF"
+    tools:context=".Chat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/r1"
+        android:background="#ffff"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v1"/>
+
+        <ImageView
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:background="@drawable/icono_atras"
+            android:id="@+id/btn_atras"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v1"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v2"
+            android:layout_toRightOf="@id/btn_atras"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:background="@drawable/imagen_perfil_mujer"
+            android:layout_toRightOf="@id/v2"
+            android:layout_centerVertical="true"
+            android:id="@+id/id_fotoP"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carol Remmer Angie"
+            android:textColor="#C74765"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffff"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+        
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/imagen_perfil_chica"
+            android:id="@+id/id_foto"/>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v3"
+            android:layout_toRightOf="@id/id_foto"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu mensaje"
+            android:textColor="#7B7B7B"
+            android:textSize="14dp"
+            android:layout_toRightOf="@id/v3"
+            android:layout_centerVertical="true"/>
+        
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="18dp"
+            android:background="@drawable/icono_enviar"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+        
+        
+    </RelativeLayout>
+</RelativeLayout>

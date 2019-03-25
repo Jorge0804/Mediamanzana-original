@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".Perfilhombre">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffff"
+        android:padding="10dp"
+        android:id="@+id/r1"
+        >
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v1"/>
+
+        <ImageView
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:background="@drawable/icono_atras"
+            android:id="@+id/btn_atras"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v1"/>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="26.08dp"
+            android:background="@drawable/icono_corazones"
+            android:layout_centerInParent="true"/>
+        
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/btn_cerrar_sesion"
+            android:background="@drawable/icono_cerrar_sesion"
+            android:layout_toLeftOf="@id/v3"
+            />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v3"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r2"
+        android:layout_below="@id/r1"
+        android:gravity="center">
+        
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/imagen_perfil_chica"
+            android:id="@+id/btn_foto"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v2"
+            android:layout_toRightOf="@id/btn_foto"/>
+        <ImageView
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:background="@drawable/boton_editar_perfil"
+            android:id="@+id/btn_editar"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/v2"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r3"
+        android:layout_below="@id/r2"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="370dp"
+            android:background="@drawable/galeria_hombre"
+            android:id="@+id/btn_fotosMartin"
+            android:layout_margin="10dp"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+        
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:background="@drawable/icono_mas_fotos"
+            android:layout_centerInParent="true"
+            android:id="@+id/btn_camara"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>
