@@ -8,19 +8,30 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_subir_fotos"></activity>
+        <activity android:name=".activity_cambiar_intereses"></activity>
+        <activity android:name=".activity_fotos_laselena" />
+        <activity android:name=".activity_fotos_mujer" />
+        <activity android:name=".activity_editar_perfil" />
+        <activity android:name=".activity_solicitud_mensaje" />
+        <activity android:name=".activity_bandeja_mensajes" />
+        <activity android:name=".Publicar" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Galeria" />
+        <activity android:name=".PerfilmujerDos" />
+        <activity android:name=".PerfilmujerActivity" />
+        <activity android:name=".Perfilhombre" />
+        <activity android:name=".activity_favoritos" />
+        <activity android:name=".activity_home" />
         <activity android:name=".activity_sesion_correo" />
+        <activity android:name=".activity_principal" />
+        <activity android:name=".activity_mostrar_mensajes" />
         <activity android:name=".activity_situacion_sentimental" />
-        <!--
-<activity android:name=".Favoritos" />
-        <activity android:name=".Inicio" />
-        -->
-        <activity android:name=".Prueba" />
+        <activity android:name=".activity_fotos_martin" />
         <activity android:name=".interesesManzana" />
-        <activity android:name=".UltimoMensaje" />
         <activity android:name=".AutodescripcionManzana" />
         <activity android:name=".OcupacionManzana" />
         <activity android:name=".UbicacionManzana" />
@@ -48,6 +59,8 @@
         <activity
             android:name=".InicioFaceActivity"
             android:theme="@style/facebook" />
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

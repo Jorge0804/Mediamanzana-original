@@ -24,6 +24,7 @@ public class InicioFaceActivity extends AppCompatActivity implements View.OnClic
             case R.id.atras:
                 finish();
                 break;
+
         }
 
         if(v.getId() != R.id.atras)

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarPerfilActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffff"
+        android:layout_margin="10dp"
+        android:id="@+id/r1"
+        >
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v1"/>
+
+        <ImageView
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:background="@drawable/icono_atras"
+            android:id="@+id/btn_atras"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v1"/>
+
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icono_editar_perfil"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r2"
+        android:layout_below="@id/r1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/imagen_perfil_chica"
+            android:id="@+id/id_foto"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/id_foto"
+            android:id="@+id/v2"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/id_foto"
+            android:id="@+id/v3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v2"
+            android:layout_toRightOf="@id/v3"
+            android:id="@+id/txt1"
+            android:text="Editar Nombre"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#7B7B7B"
+            android:textSize="14dp"
+            android:text="Martin Garrix"
+            android:layout_below="@id/txt1"
+            android:layout_centerInParent="true"
+            android:id="@+id/edt1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/edt1"
+            android:id="@+id/v6"/>
+
+        <View
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/v6"
+            android:id="@+id/v5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v6"
+            android:layout_toRightOf="@id/v5"
+            android:id="@+id/txt2"
+            android:text="Editar Edad"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#7B7B7B"
+            android:textSize="14dp"
+            android:text="22"
+            android:layout_below="@id/txt2"
+            android:layout_centerInParent="true"
+            android:id="@+id/edt2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/edt2"
+            android:id="@+id/v7"/>
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="45dp"
+            android:background="@drawable/boton_editar_intereses"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/v7"
+            android:id="@+id/btn_editar_intereses"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/btn_editar_intereses"
+            android:id="@+id/v8"/>
+
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:background="@drawable/boton_ubicacion_uno"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/v8"
+            android:id="@+id/btn_ubicacion"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_ubicacion"
+            android:id="@+id/v9"/>
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_guardar"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/v9"
+            android:id="@+id/btn_guardar"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

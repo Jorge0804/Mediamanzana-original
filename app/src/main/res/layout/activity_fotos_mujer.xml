@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".activity_fotos_mujer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/r1"
+        android:layout_margin="10dp">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v1"/>
+
+        <ImageView
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:src="@drawable/icono_atras"
+            android:id="@+id/btn_atras"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v1"/>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v2"
+            android:layout_toRightOf="@id/btn_atras"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/imagen_perfil_mujer"
+            android:layout_toRightOf="@id/v2"
+            android:layout_centerVertical="true"
+            android:id="@+id/id_fotoP"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carol Remmer Angie"
+            android:textColor="#C74765"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/selena3" />
+
+        <ImageView
+            android:layout_below="@id/imagen"
+            android:id="@+id/imagen2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/selena3" />
+
+        <ImageView
+            android:layout_below="@id/imagen2"
+            android:id="@+id/imagen3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/selena3" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_cambiar_intereses">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/r1"
+        android:background="#ffff"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v1"/>
+
+        <ImageView
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:background="@drawable/icono_atras"
+            android:id="@+id/btn_atras"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v1"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v2"
+            android:layout_toRightOf="@id/btn_atras"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:background="@drawable/logo_intereses"
+            android:layout_toRightOf="@id/v2"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/id_fotoP"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl7"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@id/imagen"
+            android:src="@drawable/gustos"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imagen"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/botontojo"
+            android:text="Aceptar"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnManzana"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

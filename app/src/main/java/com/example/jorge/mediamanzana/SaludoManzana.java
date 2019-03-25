@@ -12,12 +12,12 @@ public class SaludoManzana extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saludo_manzana);
 
-        findViewById(R.id.btn_continuar).setOnClickListener(this);
+        findViewById(R.id.btn_continuar1).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        Intent in = new Intent(this, InteresesManzana1.class);
+        Intent in = new Intent(SaludoManzana.this, InteresesManzana1.class);
         startActivity(in);
     }
 }

@@ -45,7 +45,7 @@ compatible contigo, es conociendo sobre tus interesesy pasiones"
             android:textSize="13sp"
             android:textAllCaps="false"
             android:layout_marginTop="60dp"
-            android:id="@+id/btn_continuar" />
+            android:id="@+id/btn_continuar2" />
 
 
     </LinearLayout>

@@ -1,3 +1,7 @@
+
+
+
+
 package com.example.jorge.mediamanzana;
 
 import android.content.Intent;
@@ -12,6 +16,7 @@ public class activity_sesion_correo extends AppCompatActivity implements View.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sesion_correo);
         findViewById(R.id.olvidar).setOnClickListener(this);
+        findViewById(R.id.iniciar).setOnClickListener(this);
     }
 
     @Override
@@ -21,6 +26,11 @@ public class activity_sesion_correo extends AppCompatActivity implements View.On
         {
             case R.id.olvidar:
                 in = new Intent(this, CorreoManzana.class);
+                startActivity(in);
+                break;
+
+            case R.id.iniciar:
+                in = new Intent(this, activity_home.class);
                 startActivity(in);
                 break;
         }

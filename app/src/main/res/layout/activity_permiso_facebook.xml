@@ -57,7 +57,8 @@ actual y dirección de correo electrónico"
         android:textColor="#fff"
         android:textSize="14sp"
         android:layout_gravity="center"
-        android:layout_marginTop="170dp"/>
+        android:layout_marginTop="170dp"
+        android:id="@+id/btn_iniciar_face"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -43,7 +43,7 @@
             android:textSize="13sp"
             android:textAllCaps="false"
             android:layout_marginTop="110dp"
-            android:id="@+id/btn_continuar" />
+            android:id="@+id/btn_continuar1" />
 
 
     </LinearLayout>

@@ -13,12 +13,14 @@ public class activity_situacion_sentimental extends AppCompatActivity implements
         setContentView(R.layout.activity_situacion_sentimental);
         findViewById(R.id.btn_siguiente).setOnClickListener(this);
 
+
     }
 
     @Override
-    public void onClick(View v)
-    {
-        Intent in = new Intent(activity_situacion_sentimental.this, activity_subir_fotos.class);
+    public void onClick(View v) {
+        Intent in = new Intent(this, activity_fotos_martin.class);
         startActivity(in);
     }
+
+
 }

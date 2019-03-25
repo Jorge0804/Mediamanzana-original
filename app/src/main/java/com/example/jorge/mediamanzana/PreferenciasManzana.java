@@ -12,15 +12,15 @@ public class PreferenciasManzana extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preferencias_manzana);
 
-        findViewById(R.id.btn_siguiente).setOnClickListener(this);
-        findViewById(R.id.btn_cancelar).setOnClickListener(this);
+        findViewById(R.id.btn_siguiente1).setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.btn_siguiente)
+        if(v.getId()==R.id.btn_siguiente1)
         {
-            Intent in = new Intent(this, Naciste_Manzana.class);
+            Intent in = new Intent(PreferenciasManzana.this, Naciste_Manzana.class);
             startActivity(in);
         }
         else

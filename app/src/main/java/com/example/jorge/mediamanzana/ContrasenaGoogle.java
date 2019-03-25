@@ -1,5 +1,6 @@
 package com.example.jorge.mediamanzana;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ public class ContrasenaGoogle extends AppCompatActivity implements View.OnClickL
 
         findViewById(R.id.atras).setOnClickListener(this);
         findViewById(R.id.btn_atras).setOnClickListener(this);
+        findViewById(R.id.btn_siguiente).setOnClickListener(this);
     }
 
     @Override
@@ -24,6 +26,10 @@ public class ContrasenaGoogle extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.btn_atras:
                 finish();
+                break;
+            case R.id.btn_siguiente:
+                Intent in = new Intent(this, activity_home.class);
+                startActivity(in);
                 break;
         }
     }

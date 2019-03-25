@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".BandejaMensajeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffff"
+        android:layout_margin="10dp"
+        android:id="@+id/r1"
+        >
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v1"/>
+
+        <ImageView
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:background="@drawable/icono_atras"
+            android:id="@+id/btn_atras"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v1"/>
+
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="45dp"
+            android:background="@drawable/icono_mensaje"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/mensaje"
+            android:id="@+id/btn_mensaje"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
