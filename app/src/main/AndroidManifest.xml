@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".activity_cambiar_intereses"></activity>
         <activity android:name=".activity_fotos_laselena" />
         <activity android:name=".activity_fotos_mujer" />
@@ -26,11 +27,42 @@
         <activity android:name=".Perfilhombre" />
         <activity android:name=".activity_favoritos" />
         <activity android:name=".activity_home" />
+=======
+<<<<<<< HEAD
+        <activity android:name=".activity_principal"></activity>
+        <activity android:name=".activity_mostrar_mensajes" />
+        <activity android:name=".activity_situacion_sentimental" />
+        <activity android:name=".activity_fotos_martin" />
+        <activity android:name=".activity_sesion_correo" />
+=======
+<<<<<<< HEAD
+        <activity android:name=".Publicar"></activity>
+        <activity android:name=".Galeria" />
+        <activity android:name=".Perfilhombre" />
+        <activity android:name=".PerfilmujerDos" />
+        <activity android:name=".Chat" />
+        <activity android:name=".FotoSelena" />
+        <activity android:name=".FotosMujer" />
+        <activity android:name=".PerfilmujerActivity" />
+        <activity android:name=".Favoritos" />
+=======
+        <activity android:name=".activity_subir_fotos"></activity>
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
         <activity android:name=".activity_sesion_correo" />
         <activity android:name=".activity_principal" />
         <activity android:name=".activity_mostrar_mensajes" />
         <activity android:name=".activity_situacion_sentimental" />
+<<<<<<< HEAD
         <activity android:name=".activity_fotos_martin" />
+=======
+        <!--
+<activity android:name=".Favoritos" />
+>>>>>>> d688d922d0925b10067ec90b62db17084418f1df
+        <activity android:name=".Inicio" />
+        -->
+>>>>>>> abf3a9b22f74959a01fc1c02e3532b885ee57d48
+        <activity android:name=".Prueba" />
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
         <activity android:name=".interesesManzana" />
         <activity android:name=".AutodescripcionManzana" />
         <activity android:name=".OcupacionManzana" />

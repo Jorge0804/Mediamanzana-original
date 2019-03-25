@@ -22,7 +22,11 @@
         <ImageView
             android:layout_width="7.41dp"
             android:layout_height="12dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_atras"
+=======
+            android:background="@mipmap/icono_regresar"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_atras"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/v1"/>
@@ -31,7 +35,11 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="26.08dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_corazones"
+=======
+            android:background="@mipmap/icono_corazones"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerInParent="true"/>
         
         <ImageView
@@ -39,7 +47,11 @@
             android:layout_height="12dp"
             android:layout_centerVertical="true"
             android:id="@+id/btn_cerrar_sesion"
+<<<<<<< HEAD
             android:background="@drawable/icono_cerrar_sesion"
+=======
+            android:background="@mipmap/icono_cerrar_sesion"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_toLeftOf="@id/v3"
             />
 
@@ -61,7 +73,11 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
+<<<<<<< HEAD
             android:background="@drawable/imagen_perfil_chica"
+=======
+            android:background="@mipmap/imagen_perfil_chica"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_foto"/>
         <View
             android:layout_width="20dp"
@@ -71,7 +87,11 @@
         <ImageView
             android:layout_width="161dp"
             android:layout_height="60dp"
+<<<<<<< HEAD
             android:background="@drawable/boton_editar_perfil"
+=======
+            android:background="@mipmap/boton_editar_perfil"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_editar"
             android:layout_marginTop="6dp"
             android:layout_toRightOf="@id/v2"/>
@@ -88,7 +108,11 @@
         <ImageView
             android:layout_width="370dp"
             android:layout_height="370dp"
+<<<<<<< HEAD
             android:background="@drawable/galeria_hombre"
+=======
+            android:background="@mipmap/galeria_hombre"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_fotosMartin"
             android:layout_margin="10dp"/>
         
@@ -102,7 +126,11 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="48dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_mas_fotos"
+=======
+            android:background="@mipmap/icono_mas_fotos"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerInParent="true"
             android:id="@+id/btn_camara"/>
         

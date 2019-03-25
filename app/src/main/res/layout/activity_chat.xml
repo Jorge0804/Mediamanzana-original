@@ -21,7 +21,11 @@
         <ImageView
             android:layout_width="7.41dp"
             android:layout_height="12dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_atras"
+=======
+            android:background="@mipmap/icono_regresar"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_atras"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/v1"/>
@@ -34,7 +38,11 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="48dp"
+<<<<<<< HEAD
             android:background="@drawable/imagen_perfil_mujer"
+=======
+            android:background="@mipmap/imagen_perfil_mujer"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_toRightOf="@id/v2"
             android:layout_centerVertical="true"
             android:id="@+id/id_fotoP"
@@ -62,7 +70,11 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
+<<<<<<< HEAD
             android:background="@drawable/imagen_perfil_chica"
+=======
+            android:background="@mipmap/imagen_perfil_chica"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/id_foto"/>
 
         <View
@@ -83,7 +95,11 @@
         <ImageView
             android:layout_width="21dp"
             android:layout_height="18dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_enviar"
+=======
+            android:background="@mipmap/icono_enviar"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             />

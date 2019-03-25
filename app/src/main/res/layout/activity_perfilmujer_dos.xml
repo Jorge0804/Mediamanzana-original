@@ -20,10 +20,16 @@
             android:id="@+id/v1"/>
 
         <ImageView
+<<<<<<< HEAD
             android:contentDescription="Sin icono"
             android:layout_width="7.41dp"
             android:layout_height="12dp"
             android:background="@drawable/icono_atras"
+=======
+            android:layout_width="7.41dp"
+            android:layout_height="12dp"
+            android:background="@mipmap/icono_regresar"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_atras"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/v1"/>
@@ -32,7 +38,11 @@
         <ImageView
             android:layout_width="99dp"
             android:layout_height="50dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_media_m"
+=======
+            android:background="@mipmap/icono_media_m"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerInParent="true"/>
 
     </RelativeLayout>
@@ -47,7 +57,11 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="268dp"
+<<<<<<< HEAD
             android:background="@drawable/foto_perfil1"
+=======
+            android:background="@mipmap/foto_perfil1"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerHorizontal="true"
             android:id="@+id/id_foto1"/>
 
@@ -62,14 +76,22 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
+<<<<<<< HEAD
             android:background="@drawable/boton_msj"
+=======
+            android:background="@mipmap/boton_msj"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_msj"
             android:layout_toRightOf="@id/btn_mg"/>
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
+<<<<<<< HEAD
             android:background="@drawable/boton_fotos"
+=======
+            android:background="@mipmap/boton_fotos"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_foto"
             android:layout_toRightOf="@id/btn_msj"/>
     </RelativeLayout>
@@ -81,7 +103,11 @@
         <ImageView
             android:layout_width="289dp"
             android:layout_height="105dp"
+<<<<<<< HEAD
             android:background="@drawable/cuadro_texto_dos"
+=======
+            android:background="@mipmap/cuadro_texto_dos"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerHorizontal="true"
             />
 

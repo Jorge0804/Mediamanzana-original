@@ -22,7 +22,11 @@
         <ImageView
             android:layout_width="7.41dp"
             android:layout_height="12dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_atras"
+=======
+            android:background="@mipmap/icono_regresar"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_atras"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/v1"/>
@@ -31,7 +35,11 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="26.08dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_corazones"
+=======
+            android:background="@mipmap/icono_corazones"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_centerInParent="true"/>
 
         <Button
@@ -56,7 +64,11 @@
         <ImageView
             android:layout_width="310dp"
             android:layout_height="347dp"
+<<<<<<< HEAD
             android:background="@drawable/foto_publicar"/>
+=======
+            android:background="@mipmap/foto_publicar"/>
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
 
     </RelativeLayout>
 

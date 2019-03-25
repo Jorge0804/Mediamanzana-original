@@ -26,7 +26,10 @@
             android:layout_below="@id/texto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
 
             <ImageView
                 android:id="@id/imagen"
@@ -34,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp" />
 
+<<<<<<< HEAD
 
             <Button
                 android:layout_centerHorizontal="true"
@@ -49,15 +53,43 @@
                 android:id="@+id/btnManzana"/>
         </RelativeLayout>
 
+=======
+            <ImageView
+                android:id="@id/imagen"
+                android:src="@drawable/gustos"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+        </RelativeLayout>
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
 
 
+                <Button
+                    android:layout_centerHorizontal="true"
+                android:layout_below="@id/rl7"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="@drawable/botontojo"
+                android:text="Finalizar"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textAllCaps="false"
+                    android:layout_marginTop="30dp"
+                android:id="@+id/btnManzana"/>
 
 
 </RelativeLayout>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
 
 
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
 
 

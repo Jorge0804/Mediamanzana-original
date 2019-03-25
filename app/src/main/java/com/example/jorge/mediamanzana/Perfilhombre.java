@@ -15,7 +15,10 @@ public class Perfilhombre extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_cerrar_sesion).setOnClickListener(this);
         findViewById(R.id.btn_atras).setOnClickListener(this);
         findViewById(R.id.btn_camara).setOnClickListener(this);
+<<<<<<< HEAD
         findViewById(R.id.btn_editar).setOnClickListener(this);
+=======
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
     }
 
     @Override
@@ -28,6 +31,7 @@ public class Perfilhombre extends AppCompatActivity implements View.OnClickListe
                 startActivity(in);
                 break;
             case R.id.btn_atras:
+<<<<<<< HEAD
                 Intent in2 = new Intent(this, activity_home.class);
                 startActivity(in2);
                 break;
@@ -38,6 +42,14 @@ public class Perfilhombre extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_editar:
                 Intent in4 = new Intent(this, activity_editar_perfil.class);
                 startActivity(in4);
+=======
+                Intent in2 = new Intent(this, Inicio.class);
+                startActivity(in2);
+                break;
+            case R.id.btn_camara:
+                Intent in3 = new Intent(this, Galeria.class);
+                startActivity(in3);
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
                 break;
         }
     }

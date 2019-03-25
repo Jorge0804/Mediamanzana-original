@@ -22,7 +22,11 @@ public class Publicar extends AppCompatActivity implements View.OnClickListener{
         switch (v.getId())
         {
             case R.id.btn_atras:
+<<<<<<< HEAD
                 Intent in1 = new Intent(this, activity_home.class);
+=======
+                Intent in1 = new Intent(this, Inicio.class);
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
                 startActivity(in1);
                 break;
             case R.id.btn_publicar:

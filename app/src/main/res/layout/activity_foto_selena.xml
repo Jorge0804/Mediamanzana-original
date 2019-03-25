@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-=======
     xmlns:app="http://schemas.android.com/apk/res-auto"
->>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffff"
-<<<<<<< HEAD
-    tools:context=".activity_fotos_mujer">
-=======
-    tools:context=".FotosMujer">
->>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
+    tools:context=".FotoSelena">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -28,18 +21,10 @@
         <ImageView
             android:layout_width="7.41dp"
             android:layout_height="12dp"
-<<<<<<< HEAD
-            android:src="@drawable/icono_atras"
-            android:id="@+id/btn_atras"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/v1"/>
-
-=======
             android:background="@mipmap/icono_regresar"
             android:id="@+id/btn_atras"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/v1"/>
->>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
         <View
             android:layout_width="20dp"
             android:layout_height="20dp"
@@ -49,11 +34,7 @@
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
-<<<<<<< HEAD
-            android:src="@drawable/imagen_perfil_mujer"
-=======
             android:background="@mipmap/imagen_perfil_mujer"
->>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:layout_toRightOf="@id/v2"
             android:layout_centerVertical="true"
             android:id="@+id/id_fotoP"
@@ -66,38 +47,7 @@
             android:textColor="#C74765"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-<<<<<<< HEAD
             />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_below="@id/r1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <ImageView
-            android:id="@+id/imagen"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:src="@drawable/selena3" />
-
-        <ImageView
-            android:layout_below="@id/imagen"
-            android:id="@+id/imagen2"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:src="@drawable/selena3" />
-
-        <ImageView
-            android:layout_below="@id/imagen2"
-            android:id="@+id/imagen3"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:src="@drawable/selena3" />
-=======
-           />
 
     </RelativeLayout>
     
@@ -106,24 +56,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/r1"
         android:gravity="center">
-
+        
         <ImageView
-            android:layout_width="370dp"
-            android:layout_height="370dp"
-            android:background="@mipmap/galeria_mujer"
-            android:id="@+id/btn_fotosSelena"
-            android:layout_margin="10dp"/>
-
-
-
->>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
+            android:layout_width="323dp"
+            android:layout_height="485dp"
+            android:background="@mipmap/foto_especifica"/>
+        
     </RelativeLayout>
 
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
 </RelativeLayout>

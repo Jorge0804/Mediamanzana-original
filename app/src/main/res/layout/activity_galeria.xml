@@ -22,7 +22,11 @@
         <ImageView
             android:layout_width="7.41dp"
             android:layout_height="12dp"
+<<<<<<< HEAD
             android:background="@drawable/icono_atras"
+=======
+            android:background="@mipmap/icono_regresar"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_atras"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/v1"/>
@@ -46,7 +50,11 @@
         <ImageView
             android:layout_width="370dp"
             android:layout_height="120dp"
+<<<<<<< HEAD
             android:background="@drawable/galeria_tres_fotos"
+=======
+            android:background="@mipmap/galeria_tres_fotos"
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
             android:id="@+id/btn_tres_fotos"
             android:layout_margin="10dp"/>
 

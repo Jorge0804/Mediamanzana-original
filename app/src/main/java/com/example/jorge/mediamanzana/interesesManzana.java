@@ -27,16 +27,22 @@ public class interesesManzana extends AppCompatActivity  {
                     case R.id.imagen:
                         img.setImageResource(R.drawable.gustos2);
                         break;
+<<<<<<< HEAD
 
                     case R.id.btnManzana:
                         Intent in = new Intent(interesesManzana.this, activity_home.class);
                         startActivity(in);
                         break;
+=======
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
                 }
             }
         };
 
         img.setOnClickListener(click);
+<<<<<<< HEAD
         btn.setOnClickListener(click);
+=======
+>>>>>>> 1a44fafcdddc0a843bafc1d409f9ee192a1adb44
     }
 }
